@@ -28,7 +28,7 @@ export const items = [
     ),
   },
   {
-    title: "Human Resource",
+    title: "Legal Help",
     path: "/companies",
     icon: (
       <SvgIcon fontSize="small">

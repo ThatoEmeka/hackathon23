@@ -79,7 +79,7 @@ const Page = () => {
           <div>
             <Stack spacing={1} sx={{ mb: 3 }}>
               <Typography variant="h4">Login</Typography>
-              <Typography color="text.secondary" variant="body2">
+              {/* <Typography color="text.secondary" variant="body2">
                 Don&apos;t have an account? &nbsp;
                 <Link
                   component={NextLink}
@@ -89,11 +89,11 @@ const Page = () => {
                 >
                   Register
                 </Link>
-              </Typography>
+              </Typography> */}
             </Stack>
             <Tabs onChange={handleMethodChange} sx={{ mb: 3 }} value={method}>
               <Tab label="Email" value="email" />
-              <Tab label="Phone Number" value="phoneNumber" />
+              {/* <Tab label="Phone Number" value="phoneNumber" /> */}
             </Tabs>
             {method === "email" && (
               <form noValidate onSubmit={formik.handleSubmit}>
@@ -130,14 +130,14 @@ const Page = () => {
                 <Button fullWidth size="large" sx={{ mt: 3 }} type="submit" variant="contained">
                   Continue
                 </Button>
-                <Button fullWidth size="large" sx={{ mt: 3 }} onClick={handleSkip}>
+                {/* <Button fullWidth size="large" sx={{ mt: 3 }} onClick={handleSkip}>
                   Skip authentication
                 </Button>
                 <Alert color="primary" severity="info" sx={{ mt: 3 }}>
                   <div>
                     You can use <b>demo@devias.io</b> and password <b>Password123!</b>
                   </div>
-                </Alert>
+                </Alert> */}
               </form>
             )}
             {method === "phoneNumber" && (
