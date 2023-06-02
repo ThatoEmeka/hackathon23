@@ -232,7 +232,7 @@ const Page = () => {
                   }
                   variant="contained"
                 >
-                  Add
+                  Background Check
                 </Button>
               </div>
             </Stack>
